@@ -1,0 +1,718 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FEF8F5;
+}
+
+.header {
+    background-image: url("../imags/Mask\ Group.png");
+    background-position-x: left;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-color: rgba(255, 0, 0, 0.237);
+    border-radius: 0 0 100px 0;
+    margin-right: 100px;
+}
+
+.container {
+    max-width: 1235px;
+    margin: 0 auto;
+}
+
+.cotent {
+    max-width: 1355px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+}
+
+.li {
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+    justify-content: center;
+}
+
+.nav_bar_rihgt {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 97px;
+}
+
+.nav_left_logo {
+    margin-top: 10px;
+}
+
+.booton {
+    background: red;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.vector_big {
+    rotate: 325deg;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_top_logos {
+    display: flex;
+    justify-content: end;
+    margin-right: -90px;
+    flex-direction: column;
+
+}
+
+.header_top {
+    overflow: hidden;
+    width: 1235px;
+    position: absolute;
+}
+
+.img {
+    display: flex;
+    justify-content: end;
+    color: #000;
+}
+
+.i {
+    margin-top: -300px;
+    margin-right: 400px;
+}
+
+.vector_big {
+    background: linear-gradient(224.97deg, #FFFFFF 13.13%, rgba(255, 255, 255, 0) 56.17%);
+    border-radius: 50%;
+
+}
+
+.vector_smule {
+    background: linear-gradient(224.97deg, #FFFFFF 13.13%, rgba(255, 255, 255, 0) 56.17%);
+    border-radius: 50%;
+    rotate: 277deg;
+    opacity: 20%;
+}
+
+.header_h2 {
+    display: flex;
+    font-family: DM Serif Display;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffff;
+    margin-left: 60px;
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+
+.ic {
+    rotate: 180deg;
+    margin-left: 3px;
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 150px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: red;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 25px;
+    margin-left: 60px;
+}
+
+.header_bottom_wrapper {
+    display: flex;
+    justify-content: end;
+    padding-right: 150px;
+    margin-top: -350px;
+    z-index: 99;
+}
+
+.header_bulut {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 400px;
+    margin-right: 40px;
+    padding-bottom: 125px;
+}
+
+.bulu2 {
+    margin-right: -130px;
+    margin-left: 95px;
+}
+
+.main_car {
+    margin-top: -160px;
+}
+
+/* .section{
+    display: flex;
+} */
+.text_h2 {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #EE4D47;
+    margin-top: 30px;
+}
+
+.section_text {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+    width: 470px;
+    height: 156px;
+    top: 1454px;
+    left: 245px;
+
+}
+
+.section_text_batton {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 570px;
+    height: 160px;
+    top: 1680px;
+    left: 245px;
+    background: #FCDDD4;
+    border-left: red solid 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.section_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_text_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_body_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.section_body_text_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_body_h2 {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #EE4D47;
+}
+
+.section_body_text {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 455px;
+    height: 287px;
+    top: 2191px;
+    left: 905px;
+    margin-top: 90px;
+}
+
+.secition_medium_fon {
+    background-image: url("../imags/Rectangle\ 9.png");
+    background-position-x: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.secition_medium {
+    display: flex;
+    justify-content: end;
+}
+
+.secition_medium_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secition_medium_h2 {
+    margin-top: 200px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #EE4D47;
+}
+
+.secition_medium_text {
+    margin-top: 40px;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.secition_medium_img {
+    margin-top: 70px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 30px 18px;
+    background-color: #faeeeb;
+    display: none;
+    height: 160px;
+    width: 550px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion:after {
+    content: '.n';
+    /* Unicode character for "plus" sign (+) */
+    color: #cccccc00;
+    height: 20px;
+    float: right;
+    background: url("../imags/+.png");
+}
+
+.active:after {
+    content: ".n";
+    /* Unicode character for "minus" sign (-) */
+    background: url("../imags/-.png");
+
+}
+
+.nor {
+    width: 600px;
+    border-radius: 10px;
+    background: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_wrapper {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1120px;
+}
+
+.slot-1 {
+    display: block;
+    width: 600px;
+    margin-right: 10px;
+}
+
+.slot-2 {
+    display: block;
+    width: 600px;
+}
+
+.nopr {
+    color: red;
+    display: flex;
+    align-items: center;
+    background: #ed4d47ab;
+}
+
+.nopr:hover {
+    background: #ed4d47ab;
+}
+
+.pele {
+    text-align: center;
+    width: 100%;
+}
+
+.p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.f {
+    display: flex;
+    justify-content: center;
+}
+
+/* asassa */
+.cover_wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.cover {
+    width: 912px;
+    position: relative;
+    padding: 0px 30px;
+    margin-top: 100px;
+}
+
+.left {
+    font-size: 30px;
+
+    color: red;
+    transform: translateY(-50%);
+    margin-right: 20px;
+}
+
+.right {
+    font-size: 30px;
+    color: red;
+    transform: translateY(-50%);
+    margin-right: 100px;
+}
+
+.button_wrapper {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.scroll-images {
+    position: relative;
+    width: 100%;
+    padding: 40px 0px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scroll-images::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #aaa;
+}
+
+.scroll-images::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.cards {
+    min-width: 420px;
+    height: 360px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-right: 20px;
+    z-index: -999;
+    box-shadow: 0px 20px 40px 0px #EE4D471A;
+}
+
+.cards:nth-child(4) {
+    margin-right: 0;
+}
+
+.rec {
+
+    width: 880px;
+    height: 450px;
+}
+
+.h2-card {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.nic-ava {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.nic {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.cover_h2 {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #EE4D47;
+}
+
+.cover_p {
+    margin-top: 30px;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cover_h2_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 57px;
+}
+
+.gruzav {
+    margin-bottom: -22px;
+}
+
+.s-footer_wrapper {
+    background-image: url("../imags/iz.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.secition_footer {
+    background: #0F264C;
+    padding-top: 100px;
+}
+
+.s_text {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 100px;
+    color: #ffff;
+    padding: 10px;
+    border-left: 6px solid #ED4D47;
+    border-radius: 4px 0 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 100px;
+}
+
+.card_iput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    width: 482px;
+    height: 440px;
+    top: 5150px;
+    left: 715px;
+    border-radius: 10px;
+    background: white;
+    margin-right: 50px;
+    margin-top: -230px;
+}
+
+.input-1 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 10px;
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #EE4D47;
+    box-shadow: 0px 20px 40px 0px #EE4D4733;
+}
+
+.input-1::placeholder {
+    color: black;
+}
+
+
+.input-2 {
+    padding: 10px;
+    width: 400px;
+    height: 60px;
+    top: 5388px;
+    left: 790px;
+    border-radius: 5px;
+    border: 1px solid #EE4D47;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;   
+}
+.name_h2{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 300;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+}
+.Emailaddress{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 300;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.u{
+    margin-top: 20px;
+    margin-right: 200px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #EE4D47;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 25px;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    height: 300px;
+}
+.lo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.footer_logos{
+    color: wheat;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.yt{
+    font-size: 21px;
+    padding-right: 13px;
+}
